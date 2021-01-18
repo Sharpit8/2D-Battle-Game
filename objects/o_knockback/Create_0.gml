@@ -1,0 +1,1 @@
+knocktimer=30

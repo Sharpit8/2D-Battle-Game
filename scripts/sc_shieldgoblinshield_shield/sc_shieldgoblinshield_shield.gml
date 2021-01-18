@@ -1,0 +1,2 @@
+image_speed=24
+sprite_index=sprite_shield

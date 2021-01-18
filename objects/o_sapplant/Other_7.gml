@@ -1,0 +1,1 @@
+instance_create_depth(x+130*image_xscale,y,depth,o_sapdroplet)

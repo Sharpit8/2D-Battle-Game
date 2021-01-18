@@ -1,0 +1,1 @@
+global.stopleft=0

@@ -1,0 +1,1 @@
+x=mainobject.x-xdiff

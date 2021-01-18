@@ -1,0 +1,12 @@
+spawn=0
+grv=1
+deathtimer=90
+hsp=random_range(1,15)
+vsp=random_range(3,-3)
+image_angle=random_range(-360,360)
+rotatespeed=random_range(-3,3)
+hitonce=0
+timer=2
+hitonce=0
+enemylist=ds_list_create()
+darken=random_range(0,0.5)

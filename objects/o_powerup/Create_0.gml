@@ -1,0 +1,10 @@
+mainobject=instance_nearest(x,y,o_spawn_menu)
+control=instance_nearest(x,y,o_powerupbackground)
+mouse=instance_nearest(x,y,o_mouse)
+flash=0
+select=0
+cooldown=300
+cooldownmax=cooldown
+coolpercent=0.46
+creature=parent_A
+sprite=s_backgroundpowerup

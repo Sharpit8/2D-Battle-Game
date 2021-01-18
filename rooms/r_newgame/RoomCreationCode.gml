@@ -1,0 +1,76 @@
+window_set_fullscreen(true)
+global.ds_listdepth = ds_list_create()
+global.level=1
+global.slot1=0
+global.slot2=o_noone
+global.slot3=o_noone
+global.slot4=o_noone
+global.slot5=o_noone
+global.mapmaker1=0
+global.mapmaker2=0
+global.mapmaker3=0
+global.specialgoblindemon=1
+global.axegoblin=0
+global.new=0
+global.boggoblin=0
+global.canspawn=1
+global.shieldgoblin=0
+global.roomtrans=0
+global.speargoblin=0
+global.goto=r_world1
+global.speedup=1
+global.mushroom=1
+global.levelupscreen=0
+global.playerx=900
+global.playery=1400
+
+global.CreatureStorage=array_create(999,0)
+global.RelicStorage=array_create(999,0)
+
+cursor_sprite=s_mousecurser
+window_set_cursor(cr_none)
+enum states
+{   //goblin
+	goblin_walk,
+	goblin_attack,
+	goblin_knockback,
+	 //bossgoblin
+	goblinboss_walk,
+	goblinboss_attack,
+	goblinboss_spawn,
+	goblinboss_knockback,
+	//shieldgoblin
+	shieldgoblin_walk,
+	shieldgoblin_attack,
+	shieldgoblin_knockback,
+		//shieldgoblinshield
+	shieldgoblinshield_walk,
+	shieldgoblinshield_shield,
+	 //goblinaxe
+	goblinaxe_walk,
+	goblinaxe_attack,
+	goblinaxe_knockback,
+	goblinaxe_powerup,
+	//boggoblin
+	boggoblin_walk,
+	boggoblin_attack,
+	boggoblin_knockback,
+	boggoblin_powerup,
+	  //speargoblin
+	speargoblin_walk,
+	speargoblin_attack,
+	speargoblin_knockback,
+	speargoblin_powerup,
+	 //specialgoblin
+	specialgoblin_walk,
+	specialgoblin_attack,
+	specialgoblin_knockback,
+	 //mushroom
+	mushroom_walk,
+	mushroom_attack,
+    mushroom_knockback,
+	 //fish
+	fish_walk,
+	fish_attack,
+	fish_knockback,
+}

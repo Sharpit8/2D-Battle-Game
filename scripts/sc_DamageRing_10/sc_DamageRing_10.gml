@@ -1,0 +1,1 @@
+damage=damage*1.10

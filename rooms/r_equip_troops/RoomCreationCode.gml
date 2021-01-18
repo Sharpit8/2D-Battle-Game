@@ -1,0 +1,9 @@
+global.roomtrans=1
+global.scrollleft=0
+global.scrollright=0
+audio_pause_sound(so_battlemusic1)
+audio_pause_sound(so_battlemusic11)
+audio_play_sound(so_menumusic,0,true)
+audio_pause_sound(so_forestsong)
+global.new=0
+cursor_sprite=s_mousecurser
